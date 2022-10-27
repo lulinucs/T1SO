@@ -78,7 +78,7 @@ def movimentar_fichas_simultaneamente_easy(tabuleiro, ficha1, ficha2, ficha3, fi
                 i += 1
         rodada += 1
 
-        time.sleep(5000)
+        time.sleep(3)
 
 def limpa_tabuleiro(tabuleiro):
     for l in range(10):
